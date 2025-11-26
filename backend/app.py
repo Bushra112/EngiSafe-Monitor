@@ -19,11 +19,13 @@ def create_app():
     from routes.incident_routes import incident_bp
     from routes.worker_routes import worker_bp
     from routes.equipment_routes import equipment_bp
+    from routes.chat_routes import chat_bp
 
     app.register_blueprint(auth_bp, url_prefix="/auth")
     app.register_blueprint(incident_bp, url_prefix="/incidents")
     app.register_blueprint(worker_bp, url_prefix="/workers")
     app.register_blueprint(equipment_bp, url_prefix="/equipment")
+    app.register_blueprint(chat_bp, url_prefix="/chat")
 
     return app
 
