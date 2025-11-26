@@ -1,0 +1,56 @@
+/* ------------ GLOBAL RESET ------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------ THEME ------------- */
+body {
+  background-color: #f5f7fa;
+  font-family: "Inter", sans-serif;
+  padding-top: 70px;
+}
+
+/* ------------ NAVBAR ACTIVE LINK ------------- */
+.nav-link.active {
+  font-weight: 700;
+  color: #0d6efd !important;
+  border-bottom: 3px solid #0d6efd;
+}
+
+/* ------------ PAGE LAYOUT ------------- */
+.page-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* ------------ CARDS ------------- */
+.card {
+  border-radius: 12px;
+  transition: 0.2s ease-in-out;
+  
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* ------------ TABLE ------------- */
+table {
+  background: white !important;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #eef2ff;
+}
+
+/* ------------ BUTTONS ------------- */
+button,
+.btn {
+  font-weight: 500;
+  border-radius: 8px !important;
+}
