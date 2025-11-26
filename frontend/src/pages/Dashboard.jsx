@@ -105,12 +105,7 @@ export default function Dashboard() {
   </Col>
 </Row>
 
-{/* SECOND ROW — AI ASSISTANT BELOW RECENT INCIDENTS */}
-<Row>
-  <Col md={{ span: 6, offset: 6 }}>
-    <Chatbot />
-  </Col>
-</Row>
+
 
 
 
