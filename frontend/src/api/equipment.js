@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://127.0.0.1:5000/equipment";
+const API = "https://engisafe-monitor.onrender.com/equipment";
 
 export const getEquipment = () => axios.get(API + "/");
 export const createEquipment = (data) => axios.post(API + "/", data);
