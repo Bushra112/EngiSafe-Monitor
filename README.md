@@ -31,6 +31,10 @@ https://engisafe-monitor.onrender.com
 
 https://github.com/Bushra112/EngiSafe-Monitor
 
+**Working of the website as a video:**
+
+https://www.loom.com/share/3d3ce51e84a14403b012b157c5875e29
+
 
 **Problem Statement**
 
